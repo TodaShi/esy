@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainbk">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="套餐名"
+                android:id="@+id/name"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:id="@+id/del"
+            android:layout_alignParentRight="true"
+            android:textColor="#FF0000"
+            android:layout_marginRight="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="right" />
+
+        <cn.ecailan.yxt.Grid.MyGridView
+            android:id="@+id/footclass_item_image"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:gravity="center"
+            android:verticalSpacing="3dip"
+            android:layout_marginLeft="5dp"
+            android:horizontalSpacing="3dp"
+            android:src="@drawable/default_image"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</LinearLayout>

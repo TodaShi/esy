@@ -1,0 +1,13 @@
+﻿[{'comment':{'commentid':001,'body':'不错','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':002,'body':'Good','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':003,'body':'Nice','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':004,'body':'棒','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':005,'body':'好','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':006,'body':'很好','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':007,'body':'灰常好','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':008,'body':'不赖','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':009,'body':'Yes','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':0010,'body':'God','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':0011,'body':'Yeah','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}},
+{'comment':{'commentid':0012,'body':'= =！','addtime':'2015-05-20','shotid':001,'username':'UserName','icon':''}}
+]
