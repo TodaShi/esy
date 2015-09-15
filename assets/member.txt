@@ -1,0 +1,3 @@
+﻿[{'UserName':'用户1','UserID':001,'Class':001},{'UserName':'用户2','UserID':002,'Class':001},
+{'UserName':'用户3','UserID':003,'Class':001},{'UserName':'用户4','UserID':004,'Class':001},
+{'UserName':'用户5','UserID':005,'Class':001},{'UserName':'用户6','UserID':006,'Class':001}]

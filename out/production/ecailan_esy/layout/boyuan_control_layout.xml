@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/tabs_fragment"
+            android:name="cn.ecailan.esy.fragment.TabsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            tools:layout="@layout/fourtoolbar" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tabs_fragment">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

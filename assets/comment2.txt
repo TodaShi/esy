@@ -1,0 +1,5 @@
+﻿[{'comment':{'commentid':001,'body':'不错','addtime':'2015-05-20','shotid':002,'username':'UserName','icon':''}},
+{'comment':{'commentid':002,'body':'很好','addtime':'2015-05-20','shotid':002,'username':'UserName','icon':''}},
+{'comment':{'commentid':003,'body':'Good','addtime':'2015-05-20','shotid':002,'username':'UserName','icon':''}},
+{'comment':{'commentid':004,'body':'Nice','addtime':'2015-05-20','shotid':002,'username':'UserName','icon':''}},
+{'comment':{'commentid':005,'body':'Fuck','addtime':'2015-05-20','shotid':002,'username':'UserName','icon':''}}]

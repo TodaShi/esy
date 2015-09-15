@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:id="@+id/tabHost"
+        android:background="#ffffffff">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffffff"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/top_blue_bg">
+
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:labelFor="@color/calendar_bg"
+                    android:text="日程伙食"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_vertical"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/foodclass_add"
+                    android:text="菜谱"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:id="@+id/food_back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:src="@drawable/item_grid_header_arrow_icon"
+                    android:layout_alignBottom="@+id/textView99"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/foodrecord_tab_layout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                                android:id="@+id/foodrecord_at_list_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="伙食日程安排："
+                                android:textColor="@android:color/black"
+                                android:textSize="18sp"
+                                android:layout_marginLeft="8dp"
+                                android:textStyle="bold"
+                                />
+
+                    </RelativeLayout>
+
+                    <org.ry8.external.maxwin.view.XListView
+                            android:id="@+id/foodrecord_at_listview"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/corners_radius"
+                            android:divider="#00000000"
+                            android:layout_margin="3dp"
+                            android:footerDividersEnabled="false"
+                            android:headerDividersEnabled="false"
+                            android:listSelector="#00000000" >
+                        </org.ry8.external.maxwin.view.XListView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:id="@+id/foodrecord_add"
+                        android:src="@drawable/additem"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:id="@+id/ll_down">
+
+    <TextView
+        android:id="@+id/foodrecord_txt_context"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:text=""
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        android:background="#EEEEEE"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/down"
+        android:src="@drawable/down"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:focusableInTouchMode="false"
+        android:touchscreenBlocksFocus="true"
+        android:layoutMode="clipBounds"
+        android:nestedScrollingEnabled="true"
+        android:transitionGroup="true"
+        android:id="@+id/ll_calendar"
+        android:layout_gravity="center_horizontal">
+
+        <!-- 日历界面 -->
+        <org.ry8.View.Calendar.CalendarView
+            android:id="@+id/foodrecord_calendar_view"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:clipToPadding="false"
+            android:background="#FFFFFF"
+            />
+    </LinearLayout>
+</LinearLayout>
+	

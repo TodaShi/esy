@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent_view"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <org.ry8.CeaFrame.view.HighlightImageView
+                android:id="@+id/shot_item_head"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_image" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/shot_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="#ff1c8fa5"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/shot_item_image"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/default_image" />-->
+
+        <cn.ecailan.esy.Grid.MyGridView
+            android:id="@+id/shot_item_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:gravity="center"
+            android:verticalSpacing="3dip"
+            android:layout_marginLeft="55dp"
+            android:horizontalSpacing="3dp"
+            android:src="@drawable/default_image" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/islike_icon"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/add_coment_like"
+                />
+            <TextView
+                android:id="@+id/islike_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:text=""
+                />
+
+            <TextView
+                android:id="@+id/shot_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:layout_marginLeft="5dp"
+                android:text="10小时"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/add_conment"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:src="@drawable/bt_add_conment" />
+
+       </LinearLayout>
+
+        <cn.ecailan.esy.Utils.InnerListView
+            android:id="@+id/shot_list_inner_listview"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="-8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:background="@drawable/conment_detail"
+            android:visibility="visible">
+
+        </cn.ecailan.esy.Utils.InnerListView>
+
+    </LinearLayout>
+
+</LinearLayout>

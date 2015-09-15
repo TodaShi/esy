@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">易溯源</string>
+    <!-- Calendar -->
+    <string name="month_name_format">MMMM yyyy</string>
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+
+
+    <!-- XListView -->
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="qfish_introduction">Love coding and hand-drawing, while he is also skilled in HTML and CSS and JS.
+        What he always saying is "Fight, a way of surviving ~".</string>
+
+    <string name="hold_on">请稍候…</string>
+    <string name="user_name_cannot_be_empty">用户名不能为空</string>
+    <string name="password_cannot_be_empty">密码不能为空</string>
+    <string name="wrong_username">请输入正确的用户名</string>
+    <string name="username_too_short">用户名过短</string>
+    <string name="username_too_long">用户名过长</string>
+    <string name="wrong_password">请输入正确的密码</string>
+    <string name="password_too_short">密码过短</string>
+    <string name="password_too_long">密码过长</string>
+    <string name="member_signin">会员登录</string>
+    <string name="login_username">卡号/账号</string>
+    <string name="login_password">密码:</string>
+    <string name="login_login">登录</string>
+    <string name="login_findpwd">找回密码>></string>
+    <string name="login_register">免费注册>></string>
+    <string name="welcome">欢迎使用</string>
+
+    <string name="not_null">（必填*）</string>
+    <string name="email_cannot_be_empty">邮箱不能为空</string>
+    <string name="required_cannot_be_empty">必填项不能为空</string>
+    <string name="fault">邮箱格式错误，请验证</string>
+    <string name="password_not_match">密码不一致，请重新输入</string>
+
+    <string name="register_confirm">支付密码:</string>
+    <string name="register_realname">真实姓名:</string>
+    <string name="register_iden">身份证号码:</string>
+    <string name="register_phone">手机:</string>
+    <string name="register_regist">注册</string>
+    <string name="register_email">邮箱:</string>
+    <string name="register_qq">qq:</string>
+    <string name="register_address">收货地址:</string>
+    <string name="register_business_id">商家ID:</string>
+    <string name="login_account">账户</string>
+    <string name="login_findpwdtitle">您好，请您在下面输入您的手机号码，然后点击“找回密码”系统将通过短信把密码发送给您的手机。</string>
+    <string name="basic_action_1">删除</string>
+    <string name="basic_action_2">Action_2</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="str_red">#ff0000</string>
+
+</resources>
