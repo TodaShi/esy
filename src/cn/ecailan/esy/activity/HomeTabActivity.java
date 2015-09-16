@@ -51,6 +51,7 @@ import org.ry8.CeaFrame.model.BeeQuery;
 public class HomeTabActivity extends TabActivity {
 
     private TabHost tabHost;
+
     
     private ImageView image;
 	private TranslateAnimation mTranslateAnimation;
