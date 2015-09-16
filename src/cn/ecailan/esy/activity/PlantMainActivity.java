@@ -153,8 +153,6 @@ public class PlantMainActivity extends Activity implements BusinessResponse,View
 
         public RightPopupWindows(Context mContext, View parent) {
 
-
-
             View view = View
                     .inflate(mContext, R.layout.right_popup_window_item, null);
             view.startAnimation(AnimationUtils.loadAnimation(mContext,
