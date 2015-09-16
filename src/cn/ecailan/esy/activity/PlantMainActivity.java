@@ -63,6 +63,8 @@ public class PlantMainActivity extends Activity implements BusinessResponse,View
 
         shared = this.getSharedPreferences("userInfo", 0);
 
+
+        
         int s = shared.getInt("usertypeid", -1);
         Intent intent = new Intent();
         if (s == 0) {
