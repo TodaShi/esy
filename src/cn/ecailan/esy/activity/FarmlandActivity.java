@@ -36,7 +36,7 @@ public class FarmlandActivity extends Activity implements BusinessResponse {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.farmland_layout);
 
