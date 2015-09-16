@@ -28,10 +28,6 @@ import org.ry8.CeaFrame.theme.ResourcesFactory;
 import org.ry8.CeaFrame.view.ToastView;
 import org.ry8.external.androidquery.callback.AjaxStatus;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import cn.ecailan.esy.R;
 import cn.ecailan.esy.adapter.PlantAdapter;
 import cn.ecailan.esy.model.SendMsgRequest;
@@ -158,6 +154,8 @@ public class PlantMainActivity extends Activity implements BusinessResponse,View
     public class RightPopupWindows extends PopupWindow {
 
         public RightPopupWindows(Context mContext, View parent) {
+
+
 
             View view = View
                     .inflate(mContext, R.layout.right_popup_window_item, null);
