@@ -32,6 +32,7 @@ public class SetProductOutputActivity extends Activity implements BusinessRespon
         setContentView(R.layout.set_product_output);
     }
     private void initView(){
+
         close = (LinearLayout)findViewById(R.id.close);
         output = (EditText)findViewById(R.id.set_product_output_edittext);
         btnOk = (Button)findViewById(R.id.set_product_output_button);

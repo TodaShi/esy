@@ -28,10 +28,6 @@ import org.ry8.CeaFrame.theme.ResourcesFactory;
 import org.ry8.CeaFrame.view.ToastView;
 import org.ry8.external.androidquery.callback.AjaxStatus;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 import cn.ecailan.esy.R;
 import cn.ecailan.esy.adapter.PlantAdapter;
 import cn.ecailan.esy.model.SendMsgRequest;
@@ -181,6 +177,7 @@ public class PlantMainActivity extends Activity implements BusinessResponse,View
                     .findViewById(R.id.change_account);//更换账户
             Button bt2 = (Button) view
                     .findViewById(R.id.change_password);//更改密码
+
 
 
             bt1.setOnClickListener(new View.OnClickListener() {

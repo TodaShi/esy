@@ -40,6 +40,8 @@ public class PlantSelectAreaActivity extends Activity implements BusinessRespons
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plant_select_layout);
 
+        
+
         //标题
         title = (TextView)findViewById(R.id.topview_title);
         title.setText("种植地列表");

@@ -16,10 +16,6 @@ import org.ry8.CeaFrame.model.BusinessResponse;
 import org.ry8.CeaFrame.theme.ResourcesFactory;
 import org.ry8.external.androidquery.callback.AjaxStatus;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
 import cn.ecailan.esy.R;
 import cn.ecailan.esy.adapter.PlantProcessAdapter;
 import cn.ecailan.esy.model.SendMsgRequest;
@@ -66,6 +62,7 @@ public class PlantProcessActivity extends Activity implements BusinessResponse {
              nav_bar.setBackgroundDrawable(drawable);
          }
     }
+
     private void getListView(){
         listView = (ListView)findViewById(R.id.plant_process_layout_listview);
         adapter = new PlantProcessAdapter(this,sendMsgRequest.operationArrayList);

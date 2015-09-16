@@ -3,7 +3,6 @@ package cn.ecailan.esy.activity;
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
@@ -14,9 +13,6 @@ import org.json.JSONObject;
 import org.ry8.CeaFrame.model.BusinessResponse;
 import org.ry8.CeaFrame.theme.ResourcesFactory;
 import org.ry8.external.androidquery.callback.AjaxStatus;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 
 import cn.ecailan.esy.R;
 import cn.ecailan.esy.adapter.PlantProcessHistoryAdapter;
@@ -38,6 +34,7 @@ public class PlantProcessHistoryActivity extends Activity implements BusinessRes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.plant_process_history_layout);
         traceidg = getIntent().getStringExtra("traceidg");
