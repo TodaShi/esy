@@ -51,6 +51,8 @@ public class PlantProcessActivity extends Activity implements BusinessResponse {
 
     }
      private void initView(){
+
+
          title = (TextView)findViewById(R.id.topview_title);
          close = (LinearLayout)findViewById(R.id.close);
          close.setOnClickListener(new View.OnClickListener() {
