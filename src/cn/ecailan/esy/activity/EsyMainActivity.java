@@ -41,6 +41,8 @@ public class EsyMainActivity extends Activity implements BusinessResponse {
         mListView = (ListView) findViewById(R.id.esy_main_layout_listview);
 //        plantAdapter = new PlantAdapter(this, sendMsgRequest.plantArrayList);
 
+
+
     }
 
     @Override
