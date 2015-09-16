@@ -61,6 +61,9 @@ public class PlantSelectProductActivity extends Activity implements BusinessResp
 
     private void initView() {
         //标题
+
+        
+
         title = (TextView)findViewById(R.id.topview_title);
         title.setText("产品列表");
         nav_bar = (FrameLayout)findViewById(R.id.nav_bar);
